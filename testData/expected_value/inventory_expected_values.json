@@ -1,0 +1,363 @@
+{
+    "applications": {
+        "default_filters": {
+            "expected_values": {
+                "applications_resources_by_region": {
+                    "USA": {
+                        "applications": 194,
+                        "resources": 1313
+                    },
+                    "IRL": {
+                        "applications": 136,
+                        "resources": 3851
+                    },
+                    "SWE": {
+                        "applications": 2,
+                        "resources": 2
+                    },
+                    "IND": {
+                        "applications": 17,
+                        "resources": 10
+                    },
+                    "FRA": {
+                        "applications": 3,
+                        "resources": 4
+                    },
+                    "GBR": {
+                        "applications": 15,
+                        "resources": 18
+                    },
+                    "KOR": {
+                        "applications": 5,
+                        "resources": 4
+                    },
+                    "CAN": {
+                        "applications": 2,
+                        "resources": 2
+                    },
+                    "DEU": {
+                        "applications": 3,
+                        "resources": 7
+                    },
+                    "CHN": {
+                        "applications": 6,
+                        "resources": 3
+                    },
+                    "HKG": {
+                        "applications": 8,
+                        "resources": 5
+                    },
+                    "IDN": {
+                        "applications": 2,
+                        "resources": 3
+                    },
+                    "COL": {
+                        "applications": 7,
+                        "resources": 8
+                    },
+                    "PER": {
+                        "applications": 2,
+                        "resources": 2
+                    },
+                    "PAK": {
+                        "applications": 2,
+                        "resources": 2
+                    },
+                    "SGP": {
+                        "applications": 24,
+                        "resources": 15
+                    },
+                    "TWN": {
+                        "applications": 8,
+                        "resources": 3
+                    },
+                    "PHL": {
+                        "applications": 1,
+                        "resources": 1
+                    },
+                    "PRI": {
+                        "applications": 1,
+                        "resources": 1
+                    },
+                    "THA": {
+                        "applications": 2,
+                        "resources": 2
+                    },
+                    "CHL": {
+                        "applications": 4,
+                        "resources": 4
+                    },
+                    "MYS": {
+                        "applications": 7,
+                        "resources": 5
+                    },
+                    "MEX": {
+                        "applications": 1,
+                        "resources": 2
+                    },
+                    "ARG": {
+                        "applications": 6,
+                        "resources": 10
+                    },
+                    "BRA": {
+                        "applications": 10,
+                        "resources": 6
+                    },
+                    "VEN": {
+                        "applications": 1,
+                        "resources": 1
+                    },
+                    "VNM": {
+                        "applications": 4,
+                        "resources": 3
+                    },
+                    "JPN": {
+                        "applications": 2,
+                        "resources": 2
+                    }
+                },
+                "top_insights": {
+                    "applications_with_most_resources": {
+                        "ACME_app6_afb34cdb-7019-4b34-a38c-bf28bb0e631a": 70,
+                        "ACME_app4_cb6d81eb-2dd4-4df2-802b-4c1d39c00afb": 69,
+                        "ACME_app1_857be497-5e3b-4b70-82a0-c59961e73955": 68
+                    },
+                    "applications_with_most_active_resources": {
+                        "ACME_app4_61023fb2-4281-4215-8469-d7326efb0b0d": 42,
+                        "ACME_app6_4975526c-91b3-4815-b137-e3e4f881c0b1": 42,
+                        "ACME_app1_f7e99660-462d-49e2-aa60-855862d0b46e": 41
+                    },
+                    "applications_with_most_eol_resources": {
+                        "JD_Edwards_Ogilvy_NA": 29,
+                        "Dynamics_AX_GroupM_NA": 19,
+                        "Ricochet_Oracle_PeopleSoft_JWT_NA": 19
+                    }
+                },
+                "applications_breakdown": {
+                    "environment": {
+                        "applications": {
+                            "dev": 91,
+                            "prod": 90,
+                            "qa": 90,
+                            "uat": 90,
+                            "staging": 2,
+                            "ispw": 2,
+                            "Others": 2,
+                            "PRODUCTION": 218,
+                            "PRE_PRODUCTION": 4,
+                            "UNKNOWN": 12,
+                            "DEVELOPMENT": 10,
+                            "TEST": 8,
+                            "UAT": 2
+                        },
+                        "resources": {
+                            "dev": 1243,
+                            "prod": 1218,
+                            "qa": 1197,
+                            "uat": 1230,
+                            "staging": 6,
+                            "ispw": 6,
+                            "Others": 4,
+                            "PRODUCTION": 336,
+                            "PRE_PRODUCTION": 6,
+                            "UNKNOWN": 18,
+                            "DEVELOPMENT": 14,
+                            "TEST": 10,
+                            "UAT": 4
+                        }
+                    },
+                    "provider": {
+                        "applications": {
+                            "ibmcloud": 30,
+                            "azure": 30,
+                            "aws": 33,
+                            "IBM DC": 226
+                        },
+                        "resources": {
+                            "ibmcloud": 1629,
+                            "azure": 1629,
+                            "aws": 1643,
+                            "IBM DC": 388
+                        }
+                    },
+                    "business_unit": {
+                        "applications": {
+                            "5e71010169ac52000135c33a": 90,
+                            "QA-TEAM": 3,
+                            "ACME Corp": 44,
+                            "Others": 182
+                        },
+                        "resources": {
+                            "5e71010169ac52000135c33a": 4887,
+                            "QA-TEAM": 14,
+                            "ACME Corp": 114,
+                            "Others": 274
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "resources": {
+        "default_filters": {
+            "expected_values": {
+                "resources_by_region": {
+                    "USA": {
+                        "Ind. Service Components": 1259,
+                        "Service Instances": 63,
+                        "Assoc. Service Components": 5,
+                        "DC Resources": 955
+                    },
+                    "IRL": {
+                        "Ind. Service Components": 4087,
+                        "Service Instances": 85,
+                        "Assoc. Service Components": 3,
+                        "DC Resources": 2443
+                    },
+                    "SWE": {
+                        "Ind. Service Components": 2,
+                        "DC Resources": 1
+                    },
+                    "IND": {
+                        "Ind. Service Components": 6,
+                        "DC Resources": 5
+                    },
+                    "FRA": {
+                        "Ind. Service Components": 2,
+                        "DC Resources": 3
+                    },
+                    "GBR": {
+                        "Ind. Service Components": 2,
+                        "DC Resources": 17
+                    },
+                    "KOR": {
+                        "Ind. Service Components": 2,
+                        "DC Resources": 2
+                    },
+                    "CAN": {
+                        "Ind. Service Components": 2,
+                        "DC Resources": 1
+                    },
+                    "DEU": {
+                        "Ind. Service Components": 2,
+                        "DC Resources": 6
+                    },
+                    "CHN": {
+                        "DC Resources": 3
+                    },
+                    "HKG": {
+                        "DC Resources": 5
+                    },
+                    "IDN": {
+                        "DC Resources": 3
+                    },
+                    "COL": {
+                        "DC Resources": 8
+                    },
+                    "PER": {
+                        "DC Resources": 2
+                    },
+                    "PAK": {
+                        "DC Resources": 2
+                    },
+                    "SGP": {
+                        "DC Resources": 15
+                    },
+                    "TWN": {
+                        "DC Resources": 3
+                    },
+                    "PHL": {
+                        "DC Resources": 1
+                    },
+                    "PRI": {
+                        "DC Resources": 1
+                    },
+                    "THA": {
+                        "DC Resources": 2
+                    },
+                    "CHL": {
+                        "DC Resources": 4
+                    },
+                    "MYS": {
+                        "DC Resources": 5
+                    },
+                    "MEX": {
+                        "DC Resources": 2
+                    },
+                    "ARG": {
+                        "DC Resources": 10
+                    },
+                    "BRA": {
+                        "DC Resources": 6
+                    },
+                    "VEN": {
+                        "DC Resources": 1
+                    },
+                    "VNM": {
+                        "DC Resources": 3
+                    },
+                    "JPN": {
+                        "DC Resources": 2
+                    }
+                },
+                "top_insights": {
+                    "untagged_resources": {
+                        "Application": 3742,
+                        "Environment": 658,
+                        "Unmanaged": 5519
+                    },
+                    "monitored_resources": {
+                        "Monitored by Netcool": 1848,
+                        "Not Monitored by Netcool": 1663,
+                        "Total Resources": 3511
+                    },
+                    "resource_cloud_readiness": {
+                        "Cloud Ready": 936,
+                        "Upgrade Required": 441,
+                        "Re-Platform Required": 497
+                    },
+                    "resource_currency_designator": {
+                        "Target Firmware Level": 11,
+                        "Below Target Level": 30
+                    }
+                },
+                "resources_breakdown": {
+                    "environment": {
+                        "UNKNOWN": 936,
+                        "dev": 1246,
+                        "prod": 1218,
+                        "qa": 1197,
+                        "uat": 1230,
+                        "Others": 658,
+                        "staging": 7,
+                        "ispw": 9,
+                        "PRODUCTION": 1989,
+                        "TEST": 169,
+                        "PRE_PRODUCTION": 134,
+                        "DEVELOPMENT": 200,
+                        "QA": 8,
+                        "STAGING": 30,
+                        "UAT": 4
+                    },
+                    "provider": {
+                        "ibmcloud": 1629,
+                        "azure": 1629,
+                        "aws": 2262,
+                        "IBM DC": 3511
+                    },
+                    "business_unit": {
+                        "5e71010169ac52000135c33a": 4887,
+                        "QA-TEAM": 633,
+                        "ACME Corp": 3237,
+                        "Others": 274
+                    },
+                    "resource_category": {
+                        "Compute": 3791,
+                        "Storage": 168,
+                        "Network": 78
+                    }
+                }
+            }
+        }
+    }
+}

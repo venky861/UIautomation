@@ -1,0 +1,16 @@
+{
+	"actionableInsightPageUrl" : "/lite/aiops/client/actionable-insights",	
+	"changeManagementPageUrl" : "/lite/aiops/client/operational-change-report",
+	"dashboardPageUrl" : "/lite/aiops/client",
+	"healthPageUrl": "/lite/aiops/aiops-health",
+	"incidentManagementPageUrl" : "/lite/aiops/client/operational-incident-report",
+	"inventoryPageUrl":"/lite/aiops/aiops-inventory",
+	"pervasiveInsightPageUrl" : "/lite/aiops/client/operational-pervasive-insights",
+	"problemManagementPageUrl" : "/lite/aiops/client/problem-management",
+	"sunriseReportPageUrl" : "/lite/aiops/client/daily-sunrise-report",
+	"launchpad" : "/launchpad",
+	"privacy" : "/privacy",
+	"w3idSSOUrl" : "w3id.sso.ibm.com",
+	"userAccessUrl" : "/admin/useraccess/organizations",
+	"ibmEmail": "ibm.com"
+}

@@ -1,0 +1,67 @@
+{
+    "title": "User Access Management",
+    "subTitle": "Manage Organizations, Teams and Users",
+    "newOrgName": "UIAutoAiopsOrg",
+    "createOrgSuccessMsgText": "{0} has been added",
+    "createOrgErrorMsgText": "Authorization context with context code {0} already exists",
+    "newTeamName": "UIAutoAiopsTeam",
+    "createTeamSuccessMsgText": "{0} has been successfully created. You may now add roles to this team or add the user to teams.",
+    "createTeamErrorMsgText": "Please fill required fields",
+    "addRoleSuccessMsgText": "IT Ops Manager Role has been successfully added to {0}.",
+    "updateRoleSuccessMsgText": "Association has been successfully updated.",
+    "addOneUserSuccessMsgText": "1 user(s) have been successfully assigned.",
+    "organizationsTabLinkText": "Organizations",
+    "teamsTabLinkText": "Teams",
+    "usersTabLinkText": "Users",
+    "systemUsersTabLinkText": "System Users",
+    "apiKeyTabLinkText": "API Key",
+    "idColumnName": "ID",
+    "viewDetailsBtnName": "View Details",
+    "deleteBtnName": "Delete",
+    "roleName": "IT Ops Manager",
+    "businessEntity": {
+        "id": "org",
+        "name": "Organization",
+        "value": "UIAutoAiopsOrg"
+	},
+	"teams":"Teams",
+    "roleContext": [
+        {
+            "context": [
+                {
+                    "id": "landing",
+                    "name": "landing",
+                    "value": [
+                        "ALL"
+                    ]
+                }
+            ]
+        },
+        {
+            "context": [
+                {
+                    "id": "landing",
+                    "name": "landing",
+                    "value": [
+                        "Inventory",
+                        "Actionable Insights"
+                    ]
+                }
+            ]
+        },
+        {
+            "context": [
+                {
+                    "id": "landing",
+                    "name": "landing",
+                    "value": ""
+                }
+            ]
+        }
+    ],
+    "newUser":{
+        "emailId": "paseloka@in.ibm.com",
+        "name": "Padmakar Selokar",
+        "password": ""
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "health": {
+        "business_applications": {
+            "critical": 111,
+            "warning": 20,
+            "healthy": 185,
+            "total": 316
+        }
+    },
+    "inventory": {
+        "resources_by_provider": {
+            "aws": 2262,
+            "azure": 1629,
+            "ibmcloud": 1629,
+            "IBM DC": 3511,
+            "total": 9031
+        }
+    },
+    "pervasive_insights": {
+        "top_5_affected_servers": {
+            "o7cfnotbz0qo57": 289,
+            "o7cfnotbz0qo58": 232,
+            "ofmqfnipfueqri56": 130,
+            "pqvasen6": 126,
+            "o8ffprqjc-qo6": 124
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "p1Tickets" : "p1Tickets",
+    "p2Tickets" : "p2Tickets",
+    "p3Tickets" : "p3Tickets",
+    "created" : "created",
+    "resolved" : "resolved",
+    "convergedHealth" : "convergedHealth",
+    "convergedOpenTicket" : "convergedOpenTicket",
+    "critical" : "critical",
+    "warning"	: "warning",
+    "healthy" : "healthy",
+    "high" : "high",
+    "medium" : "medium",
+    "low" : "low",
+    "multiCloud" : "multiCloud",
+    "dataCenter" : "dataCenter"
+}

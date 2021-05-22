@@ -1,0 +1,221 @@
+{
+    "applications": {
+        "default_filters": {
+            "expected_values": {
+                "health_status": {
+                    "critical": 111,
+                    "warning": 20,
+                    "healthy": 185,
+                    "total": 316
+                },
+                "application_breakdown": {
+                    "by_provider": {
+                        "aws": {
+                            "critical": 30,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "ibmcloud": {
+                            "critical": 30,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "azure": {
+                            "critical": 30,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "IBM DC": {
+                            "critical": 21,
+                            "warning": 20,
+                            "healthy": 185
+                        }
+                    },
+                    "by_environment": {
+                        "QA": {
+                            "critical": 0,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "qa": {
+                            "critical": 90,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "UAT": {
+                            "critical": 0,
+                            "warning": 0,
+                            "healthy": 2
+                        },
+                        "PRODUCTION": {
+                            "critical": 21,
+                            "warning": 17,
+                            "healthy": 180
+                        },
+                        "dev": {
+                            "critical": 90,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "prod": {
+                            "critical": 90,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "DEVELOPMENT": {
+                            "critical": 2,
+                            "warning": 5,
+                            "healthy": 3
+                        },
+                        "UNKNOWN": {
+                            "critical": 8,
+                            "warning": 3,
+                            "healthy": 1
+                        },
+                        "PRE_PRODUCTION": {
+                            "critical": 2,
+                            "warning": 2,
+                            "healthy": 0
+                        },
+                        "uat": {
+                            "critical": 90,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "STAGING": {
+                            "critical": 0,
+                            "warning": 0,
+                            "healthy": 0
+                        },
+                        "TEST": {
+                            "critical": 0,
+                            "warning": 4,
+                            "healthy": 4
+                        }
+                    },
+                    "by_business_unit": {
+                        "ACME Corp": {
+                            "critical": 13,
+                            "warning": 17,
+                            "healthy": 14
+                        },
+                        "5e71010169ac52000135c33a": {
+                            "critical": 90,
+                            "warning": 0,
+                            "healthy": 0
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "resources": {
+        "default_filters": {
+            "expected_values": {
+                "health_status": {
+                    "Healthy": 6736,
+                    "Warning": 1094,
+                    "Critical": 568
+                },
+                "resource_breakdown": {
+                    "by_provider": {
+                        "ibmcloud": {
+                            "healthy": 1128,
+                            "warning": 329,
+                            "critical": 172
+                        },
+                        "azure": {
+                            "healthy": 1131,
+                            "critical": 169,
+                            "warning": 329
+                        },
+                        "aws": {
+                            "healthy": 1141,
+                            "warning": 333,
+                            "critical": 155
+                        },
+                        "IBM DC": {
+                            "healthy": 3336,
+                            "critical": 72,
+                            "warning": 103
+                        }
+                    },
+                    "by_environment": {
+                        "dev": {
+                            "healthy": 865,
+                            "critical": 128,
+                            "warning": 249
+                        },
+                        "prod": {
+                            "healthy": 872,
+                            "warning": 231,
+                            "critical": 115
+                        },
+                        "qa": {
+                            "healthy": 836,
+                            "warning": 232,
+                            "critical": 129
+                        },
+                        "uat": {
+                            "healthy": 827,
+                            "warning": 279,
+                            "critical": 124
+                        },
+                        "PRODUCTION": {
+                            "healthy": 1886,
+                            "critical": 40,
+                            "warning": 63
+                        },
+                        "TEST": {
+                            "healthy": 161,
+                            "warning": 4,
+                            "critical": 4
+                        },
+                        "PRE_PRODUCTION": {
+                            "healthy": 123,
+                            "critical": 4,
+                            "warning": 7
+                        },
+                        "DEVELOPMENT": {
+                            "healthy": 186,
+                            "warning": 11,
+                            "critical": 3
+                        },
+                        "QA": {
+                            "healthy": 8,
+                            "critical": 0,
+                            "warning": 0
+                        },
+                        "UNKNOWN": {
+                            "healthy": 899,
+                            "critical": 21,
+                            "warning": 16
+                        },
+                        "STAGING": {
+                            "healthy": 28,
+                            "warning": 2,
+                            "critical": 0
+                        },
+                        "UAT": {
+                            "healthy": 4,
+                            "critical": 0,
+                            "warning": 0
+                        }
+                    },
+                    "by_business_unit": {
+                        "5e71010169ac52000135c33a": {
+                            "healthy": 3400,
+                            "warning": 991,
+                            "critical": 496
+                        },
+                        "ACME Corp": {
+                            "healthy": 3071,
+                            "critical": 67,
+                            "warning": 99
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

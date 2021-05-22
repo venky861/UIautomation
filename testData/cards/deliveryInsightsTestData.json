@@ -1,0 +1,5 @@
+{
+    "headerTitle" : "Delivery Insights",
+    "eSActionPlanSearchIndex" : "cdi_auto_automation_summary_overview",
+    "eSIncidentTicketSearchIndex" : "cdi_incident_tickets_processed"
+}

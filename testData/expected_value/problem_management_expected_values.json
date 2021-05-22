@@ -1,0 +1,969 @@
+{
+    "ticket_overview": {
+        "default_filters": {
+            "expected_values": {
+                "problem_count": 1300,
+                "owner_group_count": 40,
+                "priority_by_age_bin": {
+                    "0-5": {
+                        "1": 27,
+                        "2": 10,
+                        "4": 2,
+                        "3": 45
+                    },
+                    "6-10": {
+                        "2": 4,
+                        "1": 15,
+                        "3": 40
+                    },
+                    "11-15": {
+                        "1": 11,
+                        "3": 24,
+                        "2": 10
+                    },
+                    ">=16": {
+                        "1": 188,
+                        "3": 194,
+                        "2": 56,
+                        "4": 4
+                    }
+                },
+                "contact_type": {
+                    "EMAIL": 6,
+                    "PHONECALL": 22,
+                    "CHAT": 3,
+                    "EVENTMANAGEMENT": 3,
+                    "PHONE": 3
+                },
+                "owner_group": {
+                    "IBM-SW-PROBLEM MGNT": 640,
+                    "IBM-CHANGE MANAGEMENT": 350,
+                    "IBM-C-LATAM-AS-JWT-BRAZIL-APPLICATIONS": 193,
+                    "HAXABJA": 25,
+                    "IBM-C-APAC-AS-ADEPT-L3": 21,
+                    "IBM-C-APAC-AS-ADEPT-L2": 10,
+                    "NOPE-V-VABENPYOBY": 6,
+                    "IBM-C-LATAM-AS-TANGO&CONDOR L3": 4,
+                    "IBM-IN-INTEL": 4,
+                    "NOPE-V-ARGFCQRA": 4,
+                    "WPP \u2013 RCA \u2013 APPROVER \u2013 GROUP": 4,
+                    "IBM-CM-XEROX": 3,
+                    "NOPE-V-VAQJVAGRY": 3,
+                    "IBM-C-APAC-AS-ADEPT-GROUPM": 2,
+                    "IBM-SW-ITSCM": 2,
+                    "NOPE-V-IZJNER": 2,
+                    "NOPE-V-SVERJNYY": 2,
+                    "NOPE-V-ZDOBY": 2,
+                    "VOZ-FQ-FREIVPR QRFX": 2,
+                    "GRM-GEN-RETAIN-IT": 1,
+                    "IBM-C-APAC-AS-ADEPT-OTHER": 1,
+                    "IBM-C-APAC-AS-GROUPM-CHINA-L2": 1,
+                    "IBM-C-LATAM-AS-TANGO&CONDOR-PORTFOLIO": 1,
+                    "IBM-CM-IPSOFT": 1,
+                    "IBM-DS-APAC-SG-SCOTTSRD-C40": 1
+                },
+                "priority_by_status": {
+                    "APPROVED": {
+                        "1": 39,
+                        "2": 34
+                    },
+                    "CANCELLED": {
+                        "1": 56,
+                        "3": 72,
+                        "2": 10
+                    },
+                    "CLOSED": {
+                        "2": 6,
+                        "1": 6,
+                        "3": 94,
+                        "4": 1
+                    },
+                    "INPROG": {
+                        "2": 2
+                    },
+                    "NEW": {
+                        "1": 1,
+                        "3": 7,
+                        "2": 7,
+                        "4": 4
+                    },
+                    "ON HOLD": {
+                        "1": 86,
+                        "2": 49,
+                        "3": 71,
+                        "4": 7
+                    },
+                    "QUEUED": {
+                        "1": 11,
+                        "3": 29,
+                        "2": 5
+                    },
+                    "RCA COMPLE": {
+                        "1": 136,
+                        "3": 296,
+                        "2": 7
+                    },
+                    "RCACOMP": {
+                        "1": 2
+                    },
+                    "READY FOR": {
+                        "3": 3,
+                        "1": 5,
+                        "2": 1
+                    }
+                },
+                "problem_volume_by_priority": {
+                    "2020-04-01T00:00:00.000": {
+                        "1": 77,
+                        "2": 15,
+                        "3": 95,
+                        "4": 1
+                    },
+                    "2020-03-01T00:00:00.000": {
+                        "1": 79,
+                        "3": 90,
+                        "2": 22,
+                        "4": 4
+                    },
+                    "2020-02-01T00:00:00.000": {
+                        "2": 27,
+                        "1": 65,
+                        "3": 99,
+                        "4": 1
+                    },
+                    "2020-01-01T00:00:00.000": {
+                        "1": 62,
+                        "2": 23,
+                        "4": 6,
+                        "3": 99
+                    },
+                    "2019-12-01T00:00:00.000": {
+                        "3": 82,
+                        "1": 52,
+                        "2": 20
+                    },
+                    "2020-06-01T00:00:00.000": {
+                        "1": 63,
+                        "3": 94,
+                        "2": 22,
+                        "4": 1
+                    },
+                    "2020-05-01T00:00:00.000": {
+                        "1": 59,
+                        "3": 110,
+                        "2": 22,
+                        "4": 1
+                    }
+                }
+            }
+        }
+    },
+    "overall_trend": {
+        "default_filters": {
+            "expected_values": {
+                "incoming_problem_volume_by_priority": {
+                    "2020-04-01T00:00:00.000": {
+                        "1": 77,
+                        "2": 15,
+                        "3": 95,
+                        "4": 1
+                    },
+                    "2020-03-01T00:00:00.000": {
+                        "1": 79,
+                        "3": 90,
+                        "2": 22,
+                        "4": 4
+                    },
+                    "2020-02-01T00:00:00.000": {
+                        "2": 27,
+                        "1": 65,
+                        "3": 99,
+                        "4": 1
+                    },
+                    "2020-01-01T00:00:00.000": {
+                        "1": 62,
+                        "2": 23,
+                        "4": 6,
+                        "3": 99
+                    },
+                    "2019-12-01T00:00:00.000": {
+                        "3": 82,
+                        "1": 52,
+                        "2": 20
+                    },
+                    "2020-06-01T00:00:00.000": {
+                        "1": 63,
+                        "3": 94,
+                        "2": 22,
+                        "4": 1
+                    },
+                    "2020-05-01T00:00:00.000": {
+                        "1": 59,
+                        "3": 110,
+                        "2": 22,
+                        "4": 1
+                    }
+                },
+                "resolved_problem_volume_by_priority": {
+                    "2020-04-01T00:00:00.000": {
+                        "1": 11,
+                        "2": 3,
+                        "3": 17
+                    },
+                    "2019-09-01T00:00:00.000": {
+                        "1": 1,
+                        "2": 1
+                    },
+                    "2020-03-01T00:00:00.000": {
+                        "1": 14,
+                        "2": 2,
+                        "3": 23,
+                        "4": 1
+                    },
+                    "2020-02-01T00:00:00.000": {
+                        "1": 10,
+                        "3": 26
+                    },
+                    "2020-01-01T00:00:00.000": {
+                        "1": 9,
+                        "3": 30,
+                        "2": 2
+                    },
+                    "2019-12-01T00:00:00.000": {
+                        "3": 24,
+                        "2": 5,
+                        "1": 4
+                    },
+                    "2020-06-01T00:00:00.000": {
+                        "3": 14,
+                        "1": 9,
+                        "2": 2
+                    },
+                    "2020-05-01T00:00:00.000": {
+                        "3": 28,
+                        "1": 7,
+                        "2": 2
+                    },
+                    "2020-07-01T00:00:00.000": {
+                        "3": 6,
+                        "1": 2
+                    },
+                    "2019-11-01T00:00:00.000": {
+                        "3": 1
+                    }
+                },
+                "owner_group_by_volume_of_problem": {
+                    "IBM-SW-PROBLEM MGNT": 640,
+                    "IBM-CHANGE MANAGEMENT": 350,
+                    "IBM-C-LATAM-AS-JWT-BRAZIL-APPLICATIONS": 193,
+                    "HAXABJA": 25,
+                    "IBM-C-APAC-AS-ADEPT-L3": 21,
+                    "IBM-C-APAC-AS-ADEPT-L2": 10,
+                    "NOPE-V-VABENPYOBY": 6,
+                    "IBM-C-LATAM-AS-TANGO&CONDOR L3": 4,
+                    "IBM-IN-INTEL": 4,
+                    "NOPE-V-ARGFCQRA": 4,
+                    "WPP \u2013 RCA \u2013 APPROVER \u2013 GROUP": 4,
+                    "IBM-CM-XEROX": 3,
+                    "NOPE-V-VAQJVAGRY": 3,
+                    "IBM-C-APAC-AS-ADEPT-GROUPM": 2,
+                    "IBM-SW-ITSCM": 2,
+                    "NOPE-V-IZJNER": 2,
+                    "NOPE-V-SVERJNYY": 2,
+                    "NOPE-V-ZDOBY": 2,
+                    "VOZ-FQ-FREIVPR QRFX": 2,
+                    "GRM-GEN-RETAIN-IT": 1,
+                    "IBM-C-APAC-AS-ADEPT-OTHER": 1,
+                    "IBM-C-APAC-AS-GROUPM-CHINA-L2": 1,
+                    "IBM-C-LATAM-AS-TANGO&CONDOR-PORTFOLIO": 1,
+                    "IBM-CM-IPSOFT": 1,
+                    "IBM-DS-APAC-SG-SCOTTSRD-C40": 1
+                },
+                "ticket_count": {
+                    "1": {
+                        "count": 457,
+                        "MTTR": 25.917
+                    },
+                    "2": {
+                        "count": 151,
+                        "MTTR": 10.62
+                    },
+                    "3": {
+                        "count": 669,
+                        "MTTR": 16.139
+                    },
+                    "4": {
+                        "count": 14,
+                        "MTTR": 27.87
+                    }
+                }
+            }
+        }
+    },
+    "top_volume_drivers": {
+        "default_filters": {
+            "expected_values": {
+                "ticket_count": {
+                    "1": {
+                        "count": 457,
+                        "MTTR": 25.917
+                    },
+                    "2": {
+                        "count": 151,
+                        "MTTR": 10.62
+                    },
+                    "3": {
+                        "count": 669,
+                        "MTTR": 16.139
+                    },
+                    "4": {
+                        "count": 14,
+                        "MTTR": 27.87
+                    }
+                },
+                "mined_category_by_volume_of_problem": {
+                    "Other": 450,
+                    "Printer Issue": 17,
+                    "Disk Space": 8,
+                    "Password Issue / Reset": 7,
+                    "Network Issue": 116,
+                    "Server Hang/Node down": 80,
+                    "Access Request Others": 56,
+                    "Backup Fail/Miss": 18,
+                    "WiFi Issue": 147,
+                    "VPN Issue": 40,
+                    "DNS Issue": 16,
+                    "Reboot": 72,
+                    "AV Related": 13,
+                    "Server Access": 27,
+                    "Switch Port / Reset": 33,
+                    "Domain Controller": 14,
+                    "OS Problem": 27,
+                    "Phone Issue": 13,
+                    "Excel Issue": 15,
+                    "Email / Outlook Issues": 11,
+                    "Firewall Issue": 13,
+                    "SW /HW Installation": 17,
+                    "SQL Job Failure": 1,
+                    "New Joiner/Leaver": 3,
+                    "Memory Issue": 5,
+                    "RDP Issue": 1,
+                    "Drive Access": 5,
+                    "Alerts Others": 4,
+                    "High CPU Utilization": 3,
+                    "VMware Issue": 5
+                },
+                "owner_group_by_volume_of_problem": {
+                    "IBM-SW-PROBLEM MGNT": 640,
+                    "IBM-CHANGE MANAGEMENT": 350,
+                    "IBM-C-LATAM-AS-JWT-BRAZIL-APPLICATIONS": 193,
+                    "HAXABJA": 25,
+                    "IBM-C-APAC-AS-ADEPT-L3": 21,
+                    "IBM-C-APAC-AS-ADEPT-L2": 10,
+                    "NOPE-V-VABENPYOBY": 6,
+                    "IBM-C-LATAM-AS-TANGO&CONDOR L3": 4,
+                    "IBM-IN-INTEL": 4,
+                    "NOPE-V-ARGFCQRA": 4,
+                    "WPP \u2013 RCA \u2013 APPROVER \u2013 GROUP": 4,
+                    "IBM-CM-XEROX": 3,
+                    "NOPE-V-VAQJVAGRY": 3,
+                    "IBM-C-APAC-AS-ADEPT-GROUPM": 2,
+                    "IBM-SW-ITSCM": 2,
+                    "NOPE-V-IZJNER": 2,
+                    "NOPE-V-SVERJNYY": 2,
+                    "NOPE-V-ZDOBY": 2,
+                    "VOZ-FQ-FREIVPR QRFX": 2,
+                    "GRM-GEN-RETAIN-IT": 1,
+                    "IBM-C-APAC-AS-ADEPT-OTHER": 1,
+                    "IBM-C-APAC-AS-GROUPM-CHINA-L2": 1,
+                    "IBM-C-LATAM-AS-TANGO&CONDOR-PORTFOLIO": 1,
+                    "IBM-CM-IPSOFT": 1,
+                    "IBM-DS-APAC-SG-SCOTTSRD-C40": 1
+                },
+                "owner_group_summary": {
+                    "IBM-SW-PROBLEM MGNT": {
+                        "count": 640,
+                        "MTTR": 13.738
+                    },
+                    "IBM-CHANGE MANAGEMENT": {
+                        "count": 350,
+                        "MTTR": 8.479
+                    },
+                    "IBM-C-LATAM-AS-JWT-BRAZIL-APPLICATIONS": {
+                        "count": 193,
+                        "MTTR": 19.416
+                    },
+                    "HAXABJA": {
+                        "count": 25
+                    },
+                    "IBM-C-APAC-AS-ADEPT-L3": {
+                        "count": 21
+                    },
+                    "IBM-C-APAC-AS-ADEPT-L2": {
+                        "count": 10
+                    },
+                    "NOPE-V-VABENPYOBY": {
+                        "count": 6
+                    },
+                    "IBM-C-LATAM-AS-TANGO&CONDOR L3": {
+                        "count": 4
+                    },
+                    "IBM-IN-INTEL": {
+                        "count": 4,
+                        "MTTR": 0.74
+                    },
+                    "NOPE-V-ARGFCQRA": {
+                        "count": 4
+                    },
+                    "WPP \u2013 RCA \u2013 APPROVER \u2013 GROUP": {
+                        "count": 4
+                    },
+                    "IBM-CM-XEROX": {
+                        "count": 3
+                    },
+                    "NOPE-V-VAQJVAGRY": {
+                        "count": 3,
+                        "MTTR": 12.005
+                    },
+                    "IBM-C-APAC-AS-ADEPT-GROUPM": {
+                        "count": 2
+                    },
+                    "IBM-SW-ITSCM": {
+                        "count": 2,
+                        "MTTR": 0.01
+                    },
+                    "NOPE-V-IZJNER": {
+                        "count": 2
+                    },
+                    "NOPE-V-SVERJNYY": {
+                        "count": 2
+                    },
+                    "NOPE-V-ZDOBY": {
+                        "count": 2,
+                        "MTTR": 133.124
+                    },
+                    "VOZ-FQ-FREIVPR QRFX": {
+                        "count": 2
+                    },
+                    "GRM-GEN-RETAIN-IT": {
+                        "count": 1
+                    },
+                    "IBM-C-APAC-AS-ADEPT-OTHER": {
+                        "count": 1
+                    },
+                    "IBM-C-APAC-AS-GROUPM-CHINA-L2": {
+                        "count": 1
+                    },
+                    "IBM-C-LATAM-AS-TANGO&CONDOR-PORTFOLIO": {
+                        "count": 1
+                    },
+                    "IBM-CM-IPSOFT": {
+                        "count": 1
+                    },
+                    "IBM-DS-APAC-SG-SCOTTSRD-C40": {
+                        "count": 1
+                    },
+                    "IBM-DS-EMEA-CH-ZURICH-0646": {
+                        "count": 1
+                    },
+                    "IBM-IN-BUR": {
+                        "count": 1,
+                        "MTTR": 0.11
+                    },
+                    "IBM-IN-WPP-NETAPPSAN_NAS": {
+                        "count": 1
+                    },
+                    "IBM-PS-GLOBAL-PMS": {
+                        "count": 1
+                    },
+                    "NOPE-V-FGEOBY": {
+                        "count": 1,
+                        "MTTR": 148.564
+                    },
+                    "NOPE-V-GJNQZVA": {
+                        "count": 1
+                    },
+                    "NOPE-V-GNZFLF": {
+                        "count": 1,
+                        "MTTR": 23.975
+                    },
+                    "NOPE-V-GVZFLF": {
+                        "count": 1,
+                        "MTTR": 65.923
+                    },
+                    "NOPE-V-VAQNVK": {
+                        "count": 1
+                    },
+                    "NOPE-V-VOZPYQ-ULGEHFG": {
+                        "count": 1,
+                        "MTTR": 0.238
+                    },
+                    "NOPE-V-VZFLF": {
+                        "count": 1
+                    },
+                    "NOPE-V-VZFQOOBY": {
+                        "count": 1,
+                        "MTTR": 2.149
+                    },
+                    "NOPE-V-ZIFBCFVA": {
+                        "count": 1
+                    },
+                    "NOPE-V-ZQNCFCG": {
+                        "count": 1
+                    },
+                    "VOZ-NC-FREIVPRABJNQZVAF": {
+                        "count": 1
+                    }
+                },
+                "cause_by_volume_of_problem_records": {
+                    "Application Software Failure": 3,
+                    "PROCESS": 2,
+                    "HARDWARE": 2,
+                    "SOFTWARE": 2
+                },
+                "sub_component_by_volume_of_problem_records": {}
+            }
+        }
+    },
+    "ticket_details": {
+        "default_filters": {
+            "expected_values": {
+                "ticket_id": "PRB0066982"
+            }
+        },
+        "filter_1": {
+            "created": [
+                "2020_05"
+            ],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066998"
+            }
+        },
+        "filter_2": {
+            "created": [],
+            "created_week_of_the_year": [
+                "2020_8"
+            ],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066586"
+            }
+        },
+        "filter_3": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [
+                "Last 30 Days"
+            ],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066982"
+            }
+        },
+        "filter_4": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [
+                "IBM-C-APAC-AS-ADEPT-L2"
+            ],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066242"
+            }
+        },
+        "filter_5": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [
+                "3"
+            ],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066815"
+            }
+        },
+        "filter_6": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [
+                "2020_05"
+            ],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066445"
+            }
+        },
+        "filter_7": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [
+                "CANCELLED"
+            ],
+            "expected_values": {
+                "ticket_id": "PRB0066708"
+            }
+        },
+        "filter_8": {
+            "created": [
+                "2020_05"
+            ],
+            "created_week_of_the_year": [
+                "2020_8"
+            ],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066652"
+            }
+        },
+        "filter_9": {
+            "created": [
+                "2020_05"
+            ],
+            "created_week_of_the_year": [],
+            "creation_date": [
+                "Last 30 Days"
+            ],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "null"
+            }
+        },
+        "filter_10": {
+            "created": [
+                "2020_05"
+            ],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [
+                "IBM-C-APAC-AS-ADEPT-L2"
+            ],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "null"
+            }
+        },
+        "filter_11": {
+            "created": [
+                "2020_05"
+            ],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [
+                "3"
+            ],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066998"
+            }
+        },
+        "filter_12": {
+            "created": [
+                "2020_05"
+            ],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [
+                "2020_05"
+            ],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066445"
+            }
+        },
+        "filter_13": {
+            "created": [
+                "2020_05"
+            ],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [
+                "CANCELLED"
+            ],
+            "expected_values": {
+                "ticket_id": "PRB0066445"
+            }
+        },
+        "filter_14": {
+            "created": [],
+            "created_week_of_the_year": [
+                "2020_8"
+            ],
+            "creation_date": [
+                "Last 30 Days"
+            ],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066586"
+            }
+        },
+        "filter_15": {
+            "created": [],
+            "created_week_of_the_year": [
+                "2020_8"
+            ],
+            "creation_date": [],
+            "owner_group": [
+                "IBM-C-APAC-AS-ADEPT-L2"
+            ],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066616"
+            }
+        },
+        "filter_16": {
+            "created": [],
+            "created_week_of_the_year": [
+                "2020_8"
+            ],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [
+                "3"
+            ],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066616"
+            }
+        },
+        "filter_17": {
+            "created": [],
+            "created_week_of_the_year": [
+                "2020_8"
+            ],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [
+                "2020_05"
+            ],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "null"
+            }
+        },
+        "filter_18": {
+            "created": [],
+            "created_week_of_the_year": [
+                "2020_8"
+            ],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [
+                "CANCELLED"
+            ],
+            "expected_values": {
+                "ticket_id": "PRB0066638"
+            }
+        },
+        "filter_19": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [
+                "Last 30 Days"
+            ],
+            "owner_group": [
+                "IBM-C-APAC-AS-ADEPT-L2"
+            ],
+            "priority": [],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066242"
+            }
+        },
+        "filter_20": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [
+                "Last 30 Days"
+            ],
+            "owner_group": [],
+            "priority": [
+                "3"
+            ],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066815"
+            }
+        },
+        "filter_21": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [
+                "Last 30 Days"
+            ],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [
+                "2020_05"
+            ],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "null"
+            }
+        },
+        "filter_22": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [
+                "Last 30 Days"
+            ],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [],
+            "status": [
+                "CANCELLED"
+            ],
+            "expected_values": {
+                "ticket_id": "PRB0066708"
+            }
+        },
+        "filter_23": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [
+                "IBM-C-APAC-AS-ADEPT-L2"
+            ],
+            "priority": [
+                "3"
+            ],
+            "resolved": [],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066242"
+            }
+        },
+        "filter_24": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [
+                "IBM-C-APAC-AS-ADEPT-L2"
+            ],
+            "priority": [],
+            "resolved": [
+                "2020_05"
+            ],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "null"
+            }
+        },
+        "filter_25": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [
+                "IBM-C-APAC-AS-ADEPT-L2"
+            ],
+            "priority": [],
+            "resolved": [],
+            "status": [
+                "CANCELLED"
+            ],
+            "expected_values": {
+                "ticket_id": "PRB0066303"
+            }
+        },
+        "filter_26": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [
+                "3"
+            ],
+            "resolved": [
+                "2020_05"
+            ],
+            "status": [],
+            "expected_values": {
+                "ticket_id": "PRB0066243"
+            }
+        },
+        "filter_27": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [
+                "3"
+            ],
+            "resolved": [],
+            "status": [
+                "CANCELLED"
+            ],
+            "expected_values": {
+                "ticket_id": "PRB0066415"
+            }
+        },
+        "filter_28": {
+            "created": [],
+            "created_week_of_the_year": [],
+            "creation_date": [],
+            "owner_group": [],
+            "priority": [],
+            "resolved": [
+                "2020_05"
+            ],
+            "status": [
+                "CANCELLED"
+            ],
+            "expected_values": {
+                "ticket_id": "PRB0066445"
+            }
+        }
+    }
+}

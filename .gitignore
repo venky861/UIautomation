@@ -1,0 +1,9 @@
+.idea
+node_modules/
+.DS_Store
+testreports/
+reports/
+/.project
+/application.log*
+screenshotreports/
+/.tern-project
